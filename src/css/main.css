@@ -33,7 +33,7 @@ Variables
   --clr-grey-5: #ACACAC;
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
-  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-grey-10: #262933;
   --clr-green-dark: hsl(125, 67%, 35%);
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
@@ -529,7 +529,7 @@ Services
 ===============
 */
 .service {
-  background: var(--clr-white);
+  background: var(--clr-grey-10);
   padding: 3rem 1.5rem;
   margin-bottom: 2rem;
   border-radius: var(--radius);
@@ -550,16 +550,17 @@ Services
 .service p {
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  color: var(--clr-grey-5);
 }
 .service:hover {
   background: var(--clr-primary-5);
-  color: var(--clr-primary-9);
+ 
 }
 .service:hover p {
-  color: var(--clr-primary-9);
+  color: var(--white);
 }
 .service:hover .underline {
-  background: var(--clr-primary-9);
+  background: var(--white);
 }
 @media screen and (min-width: 676px) {
   .services-center {
