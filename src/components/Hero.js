@@ -25,7 +25,23 @@ const Hero = () => {
   return (
     <header className="hero">
       <div className="section-center hero-center">
-        <article className="hero-info"> </article>
+        <article className="hero-info">
+          <div>
+            <div className="underline" />
+            <h4>BRUNO MARIANO</h4>
+            <h1>Frontend Developer e UI/UX Designer</h1>
+            <div className="btn-hero-container">
+              <Link to="/contact" className="btn">
+                Ver meus projetos
+              </Link>
+              <Link to="/contact" className="btn second-btn">
+                Entrar em contato
+              </Link>
+            </div>
+
+            <SocialLinks />
+          </div>
+        </article>
         <Image fluid={fluid} style={{ maxHeight: 600 }} className="hero-img" />
       </div>
     </header>
