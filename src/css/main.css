@@ -678,7 +678,7 @@ Projects
 ===============
 */
 .projects {
-  background: var(--clr-grey-10);
+  background: var(--clr-primary-1);
 }
 .project {
   display: grid;
@@ -705,7 +705,7 @@ Projects
   opacity: 0;
 }
 .project-info {
-  background: var(--clr-white);
+  background: var(--clr-grey-10);
   padding: 1rem 2rem;
   border-bottom-left-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
@@ -722,8 +722,8 @@ Projects
   font-size: 1.5rem;
 }
 .project-desc {
-  word-spacing: 15px;
-  color: var(--clr-grey-3);
+
+  color: var(--clr-grey-5);
 }
 .project-stack {
   margin-bottom: 1rem;
@@ -731,8 +731,8 @@ Projects
 .project-stack span,
 .about-stack span {
   display: inline-block;
-  background: var(--clr-grey-9);
-  color: var(--clr-grey-5);
+  border: 2px solid var(--clr-primary-5);
+  color: var(--white);
   margin-right: 0.5rem;
   padding: 0.25rem 0.5rem;
   border-radius: var(--radius);
@@ -744,13 +744,13 @@ Projects
   margin-top: 0.5rem;
 }
 .project-icon {
-  color: var(--clr-primary-5);
+  color: var(--white);
   font-size: 1.25rem;
   margin-right: 0.5rem;
   transition: var(--transition);
 }
 .project-icon:hover {
-  color: var(--clr-primary-1);
+  color: var(--clr-primary-5);
 }
 @media screen and (min-width: 576px) {
   .project-img {
