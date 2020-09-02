@@ -99,7 +99,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-3);
+  color: var(--clr-grey-5);
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -840,12 +840,12 @@ Blog
 .blog-footer p {
   margin-bottom: 0;
   font-weight: bold;
-  color: var(--clr-grey-5);
-}
+  color: var(--clr-grey-5)}
+
 .blog-footer p:first-of-type {
   display: inline-block;
-  background: var(--clr-grey-9);
-  color: var(--clr-grey-5);
+  border: 2px solid var(--clr-primary-5);
+  color: var(--white);
   margin-right: 0.5rem;
   padding: 0.25rem 0.5rem;
   border-radius: var(--radius);
