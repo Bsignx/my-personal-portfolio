@@ -47,6 +47,7 @@ export const query = graphql`
     }
     allStrapiBlogs(limit: 3, sort: { fields: date, order: DESC }) {
       nodes {
+        id
         category
         content
         date(formatString: "DD/MM/YYYY")

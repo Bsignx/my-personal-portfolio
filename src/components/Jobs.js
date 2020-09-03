@@ -35,7 +35,7 @@ const Jobs = () => {
           {jobs.map((job, index) => {
             return (
               <button
-                key={job.strapiId}
+                key={index}
                 onClick={() => setValue(index)}
                 className={`job-btn ${index === value && 'active-btn'}`}
               >

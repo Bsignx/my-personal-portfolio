@@ -22,11 +22,12 @@ const Blog = ({ id, title, image, date, category, slug, description }) => {
 
 Blog.propTypes = {
   title: PropTypes.string.isRequired,
-  github: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
+  date: PropTypes.string.isRequired,
+  category: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  slug: PropTypes.string.isRequired,
   image: PropTypes.object.isRequired,
-  stack: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default Blog;
