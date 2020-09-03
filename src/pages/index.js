@@ -18,7 +18,7 @@ export default ({
       <Services />
       <Jobs />
       <Projects projects={projects} title="Projetos em destaque" showLink />
-      <Blogs blogs={blogs} title="Blog" showLink />
+      <Blogs blogs={blogs} title="Posts mais recentes" showLink />
     </Layout>
   );
 };

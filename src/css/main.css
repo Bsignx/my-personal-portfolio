@@ -168,6 +168,7 @@ p {
 /* section */
 .section {
   padding: 5rem 0;
+  background-color:var(--clr-primary-1);
 }
 
 .section-center {
@@ -910,7 +911,7 @@ Pages
 .error-page,
 .about-page,
 .contact-page {
-  background: var(--clr-grey-10);
+  background: var(--clr-primary-1);
   min-height: calc(100vh - 5rem - 9rem);
 }
 .error-page {
@@ -930,7 +931,7 @@ Blog Page
 ===============
 */
 .blog-page .blog {
-  background: var(--clr-white);
+  background: var(--clr-grey-10);
 }
 /*
 ===============
