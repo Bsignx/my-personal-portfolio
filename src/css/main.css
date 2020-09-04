@@ -354,7 +354,7 @@ Sidebar
   font-size: 2.5rem;
   background: transparent;
   border-color: transparent;
-  color: var(--clr-red-dark);
+  color: var(--clr-primary-5);
   cursor: pointer;
 }
 @media screen and (min-width: 992px) {
@@ -395,7 +395,13 @@ Sidebar Animation
     opacity: 1;
   }
 }
+
+.sidebar-icons {
+  padding: 0 4rem;
+}
+
 .sidebar-icons li {
+  margin: 0 auto;
   opacity: 0;
   animation: slideUp 0.5s ease-in-out 0.3s forwards;
 }
