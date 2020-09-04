@@ -86,7 +86,7 @@ h4 {
   font-family: var(--ff-primary);
 }
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 h2 {
   font-size: 2rem;
@@ -135,11 +135,12 @@ p {
   -webkit-transition: var(--transition);
   transition: var(--transition);
   font-size: 0.8rem;
-  font-weight: 700;
+  font-weight: 800;
   border: 2px solid transparent;
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
+  font-family: var(--ff-secondary);
 }
 .btn:hover {
   background: var(--clr-primary-8);
@@ -879,7 +880,7 @@ Footer
 */
 .footer {
   height: 9rem;
-  background: #222;
+  background: var(--clr-grey-10);
   text-align: center;
   display: grid;
   place-items: center;
@@ -924,12 +925,11 @@ Pages
 .error-page {
   display: grid;
   place-items: center;
-  background: var(--clr-primary-10);
   text-align: center;
 }
 .error-page h1 {
   text-transform: uppercase;
-  color: var(--clr-primary-1);
+  color: var(--white);
   margin-bottom: 2rem;
 }
 /*
@@ -1007,7 +1007,7 @@ Contact Page
   padding: 5rem 0;
 }
 .contact-form {
-  background: var(--clr-white);
+  background: var(--clr-grey-10);
   border-radius: var(--radius);
   text-align: center;
   box-shadow: var(--light-shadow);
@@ -1016,11 +1016,11 @@ Contact Page
   max-width: 35rem;
 }
 .contact-form:hover {
-  box-shadow: var(--dark-shadow);
+  box-shadow: var(--clr-primary-5);
 }
 .contact-form h3 {
   padding-top: 1.25rem;
-  color: var(--clr-grey-5);
+  color: var(--white);
 }
 .form-group {
   padding: 1rem 1.5rem;
@@ -1028,14 +1028,16 @@ Contact Page
 .form-control {
   display: block;
   width: 100%;
+  color: var(--white);
+  border: 2px solid var(--clr-primary-5);
   padding: 0.75rem 1rem;
-  border: none;
   margin-bottom: 1.25rem;
   background: var(--clr-grey-10);
   border-radius: var(--radius);
-  text-transform: uppercase;
   letter-spacing: var(--spacing);
 }
+
+
 .form-control::placeholder {
   font-family: var(--ff-primary);
   color: var(--white);

@@ -24,7 +24,7 @@ const Blog = ({ id, title, image, date, category, slug, description }) => {
 
 Blog.propTypes = {
   title: PropTypes.string.isRequired,
-  id: PropTypes.string.isRequired,
+  id: PropTypes.string,
   date: PropTypes.string.isRequired,
   category: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,

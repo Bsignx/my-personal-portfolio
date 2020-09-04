@@ -29,7 +29,7 @@ const Hero = () => {
           <div>
             <div className="underline" />
             <h4>BRUNO MARIANO</h4>
-            <h1>Frontend Developer e UI/UX Designer</h1>
+            <h1>Desenvolvedor Frontend e UI/UX Designer</h1>
             <div className="btn-hero-container">
               <Link to="/contact" className="btn">
                 Ver meus projetos
