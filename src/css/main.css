@@ -3,7 +3,7 @@
 Fonts
 ===============
 */
-@import url("https://fonts.googleapis.com/css2?family=Jura:wght@400;500;700&display=swap"); 
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;500;700&display=swap');
 
 /*
 =============== 
@@ -18,11 +18,11 @@ Variables
   --clr-primary-2: #003379;
   --clr-primary-3: hsl(185, 81%, 29%);
   --clr-primary-4: hsl(184, 77%, 34%);
-  --clr-primary-5: #0061E5;
+  --clr-primary-5: #0061e5;
   /* lighter shades of primary color */
   --clr-primary-6: hsl(185, 57%, 50%);
   --clr-primary-7: hsl(184, 65%, 59%);
-  --clr-primary-8: #002D6A;
+  --clr-primary-8: #002d6a;
   --clr-primary-9: hsl(185, 94%, 87%);
   --clr-primary-10: #fff;
   /* darkest grey - used for headings */
@@ -30,7 +30,7 @@ Variables
   --clr-grey-3: hsl(209, 34%, 30%);
   --clr-grey-4: hsl(209, 28%, 39%);
   /* grey used for paragraphs */
-  --clr-grey-5: #ACACAC;
+  --clr-grey-5: #acacac;
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: #262933;
@@ -38,8 +38,8 @@ Variables
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
   --clr-white: #fff;
-  --ff-primary: "Jura", sans-serif;
-  --ff-secondary: "Jura", sans-serif;
+  --ff-primary: 'Jura', sans-serif;
+  --ff-secondary: 'Jura', sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.2rem;
   --radius: 0.25rem;
@@ -134,7 +134,7 @@ p {
   display: inline-block;
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  font-size: 0.80rem;
+  font-size: 0.8rem;
   font-weight: 700;
   border: 2px solid transparent;
   cursor: pointer;
@@ -142,13 +142,12 @@ p {
   border-radius: var(--radius);
 }
 .btn:hover {
-  
   background: var(--clr-primary-8);
 }
 
 .second-btn {
- background: transparent;
- border: 2px solid var(--clr-primary-5);
+  background: transparent;
+  border: 2px solid var(--clr-primary-5);
 }
 
 .center-btn {
@@ -168,7 +167,7 @@ p {
 /* section */
 .section {
   padding: 5rem 0;
-  background-color:var(--clr-primary-1);
+  background-color: var(--clr-primary-1);
 }
 
 .section-center {
@@ -200,7 +199,6 @@ p {
 /* page links */
 
 /* social links */
-
 
 .social-links {
   margin-top: 2rem;
@@ -249,8 +247,8 @@ Navbar
   align-items: center;
 }
 .nav-header img {
-  width:  32px;
-  height:  32px;
+  width: 32px;
+  height: 32px;
   margin-bottom: 0.575rem;
 }
 .toggle-btn {
@@ -276,7 +274,7 @@ Navbar
     justify-content: flex-end;
   }
   .nav-header img {
-    width:  45px;
+    width: 45px;
     height: 45px;
   }
   .nav-links li {
@@ -299,8 +297,8 @@ Navbar
     align-items: center;
   }
   .nav-header img {
-  margin-bottom: 0rem;
-}
+    margin-bottom: 0rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -478,12 +476,12 @@ Hero
 }
 
 .hero-info > div > h1 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 992px) {
   .hero::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 65%;
@@ -500,7 +498,6 @@ Hero
   .hero-info {
     grid-row: 1/1;
     grid-column: 1 / span 8;
- 
   }
   .hero-info > div {
     max-width: 540px;
@@ -558,7 +555,6 @@ Services
 }
 .service:hover {
   background: var(--clr-primary-5);
- 
 }
 .service:hover p {
   color: var(--white);
@@ -628,7 +624,7 @@ Jobs
   text-transform: uppercase;
   color: var(--white);
   border: 2px solid var(--clr-primary-5);
-  
+
   display: inline-block;
   padding: 0.375rem 0.75rem;
   border-radius: var(--radius);
@@ -692,7 +688,7 @@ Projects
   z-index: 1;
 }
 .project-img::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -723,7 +719,6 @@ Projects
   font-size: 1.5rem;
 }
 .project-desc {
-
   color: var(--clr-grey-5);
 }
 .project-stack {
@@ -841,7 +836,8 @@ Blog
 .blog-footer p {
   margin-bottom: 0;
   font-weight: bold;
-  color: var(--clr-grey-5)}
+  color: var(--clr-grey-5);
+}
 
 .blog-footer p:first-of-type {
   display: inline-block;
@@ -893,6 +889,11 @@ Footer
 }
 .footer-links {
   margin: 0 auto 1rem auto;
+  width: 4rem;
+}
+
+.footer-links li {
+  margin: 0 auto;
 }
 .footer .social-link {
   color: var(--clr-white);
