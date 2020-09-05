@@ -6,12 +6,12 @@
 
 module.exports = {
   siteMetadata: {
-    title: "WebDev Portfolio",
-    description: "This is WebDev Portfolio Site",
-    author: "@webdev",
-    twitterUsername: "@john_smilga",
-    image: "/twitter-img.png",
-    siteUrl: "https://testing-strapi-gatsby-build.netlify.app",
+    title: 'Bruno Mariano Dev Portfolio',
+    description:
+      'Este é meu site para Portfolio de Desenvolvedor Frontend e UI/UX Design Site',
+    author: '@bsignx',
+    image: '/thumb.png',
+    siteUrl: 'https://brunomariano.me',
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -40,14 +40,11 @@ module.exports = {
     //   options: {
     //     fonts: [
     //       {
-    //         family: `Roboto`,
-    //         variants: [`400`, `700`],
-    //       },
-    //       {
-    //         family: `Open Sans`,
+    //         family: `Jura`,
+    //         variants: [`400`, `500`, `700`],
     //       },
     //     ],
     //   },
     // },
   ],
-}
+};

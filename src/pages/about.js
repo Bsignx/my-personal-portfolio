@@ -3,6 +3,7 @@ import Layout from '../components/Layout';
 import { graphql } from 'gatsby';
 import Title from '../components/Title';
 import Image from 'gatsby-image';
+import SEO from '../components/SEO';
 
 const About = ({
   data: {
@@ -13,9 +14,13 @@ const About = ({
 
   return (
     <Layout>
+      <SEO
+        title="Sobre mim"
+        description="Página Sobre mim - Um pouco sobre Bruno Mariano Desenvolvedor Frontend"
+      />
       <section className="about-page">
         <div className="section-center about-center">
-          <Image fluid={image.childImageSharp.fluid} className="about-img"/>
+          <Image fluid={image.childImageSharp.fluid} className="about-img" />
           <article className="about-text">
             <Title title={title} />
             <p>{info}</p>

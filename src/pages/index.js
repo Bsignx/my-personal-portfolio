@@ -6,6 +6,8 @@ import Services from '../components/Services';
 import Jobs from '../components/Jobs';
 import Projects from '../components/Projects';
 import Blogs from '../components/Blogs';
+import SEO from '../components/SEO';
+
 export default ({
   data: {
     allStrapiProjects: { nodes: projects },
@@ -14,6 +16,7 @@ export default ({
 }) => {
   return (
     <Layout>
+      <SEO title="Home" description="Página inicial Bruno Mariano Portfolio" />
       <Hero />
       <Services />
       <Jobs />

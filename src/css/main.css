@@ -13,17 +13,12 @@ Variables
 
 :root {
   /* dark shades of primary color*/
-  /* --clr-primary-1: hsl(43, 86%, 17%); */
-  --clr-primary-1: #101214;
-  --clr-primary-2: #003379;
-  --clr-primary-3: hsl(185, 81%, 29%);
-  --clr-primary-4: hsl(184, 77%, 34%);
-  --clr-primary-5: #0061e5;
+  --clr-primary-1: #16140C;
+  --clr-primary-2: #956226;
+  --clr-primary-5: #F9A848;
   /* lighter shades of primary color */
-  --clr-primary-6: hsl(185, 57%, 50%);
-  --clr-primary-7: hsl(184, 65%, 59%);
-  --clr-primary-8: #002d6a;
-  --clr-primary-9: hsl(185, 94%, 87%);
+  --clr-primary-8: #956226;
+  --clr-primary-9: #0C0D16;
   --clr-primary-10: #fff;
   /* darkest grey - used for headings */
   --white: #fff;
@@ -33,7 +28,7 @@ Variables
   --clr-grey-5: #acacac;
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
-  --clr-grey-10: #262933;
+  --clr-grey-10: #332F26;
   --clr-green-dark: hsl(125, 67%, 35%);
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
@@ -103,7 +98,7 @@ p {
 }
 @media screen and (min-width: 800px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   h2 {
     font-size: 2.5rem;
@@ -149,6 +144,11 @@ p {
 .second-btn {
   background: transparent;
   border: 2px solid var(--clr-primary-5);
+}
+
+ .second-btn:hover {
+  background: var(--clr-primary-8);
+  border: 2px solid var(--clr-primary-8);
 }
 
 .center-btn {
@@ -337,7 +337,7 @@ Sidebar
   display: block;
   text-align: center;
   text-transform: capitalize;
-  color: var(--clr-grey-5);
+  color: var(--white);
   letter-spacing: var(--spacing);
   margin-bottom: 0.5rem;
   font-size: 2rem;
@@ -345,8 +345,7 @@ Sidebar
   border-radius: var(--radius);
 }
 .sidebar-links li a:hover {
-  background: var(--clr-primary-9);
-  color: var(--clr-primary-5);
+  background: var(--clr-primary-5);
 }
 .close-btn {
   position: absolute;
@@ -511,7 +510,7 @@ Hero
   }
   .hero-img {
     display: block;
-    max-width: 580px;
+    max-width: 540px;
     grid-row: 1/1;
     grid-column: 7/-1;
   }
@@ -742,10 +741,9 @@ Projects
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 0.85rem;
+   margin-top: 0.5rem;
 }
-.about-stack span {
-  margin-top: 0.5rem;
-}
+
 .project-icon {
   color: var(--white);
   font-size: 1.25rem;
@@ -946,11 +944,11 @@ About Page
 ===============
 */
 .about-page {
-  padding: 7rem 0;
+  padding: 4rem 0;
 }
 .about-img {
   margin-bottom: 2rem;
-  height: 25rem;
+  height: 22rem;
 }
 .about-text .section-title {
   margin-bottom: 2rem;
@@ -991,6 +989,7 @@ About Page
   .about-img {
     grid-column: 1 / span 5;
     margin-bottom: 0;
+     height: 30rem;
   }
   .about-text {
     grid-column: 6 / -1;
